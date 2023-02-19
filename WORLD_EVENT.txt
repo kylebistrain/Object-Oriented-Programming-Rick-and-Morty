@@ -1,0 +1,20 @@
+1. Q:how to trigger the event
+To trigger the event, you must click on a square in the grid that does
+not currently have an entity on it. If there is an entity there it will not trigger the event.
+2. Q:what should happen when the event is triggered
+When the event is triggered a green portal with a 2x2 size will pop up on the screen.
+Additionally, a rick entity will appear and will move to the nearest DudeFull or DudeNotFull.
+3. Q: what the affected entities should do
+Once the rick is adjacent to the rick the Dude or DudeNotFull will teleport to the portal location and the Rick will try to find the next DudeFull or DudeNotFull.
+4. Q: what the new entity is and how it should behave
+The new Entity is a Rick(from Rick and Morty) and the goal of the rick is to move to the nearest DudeFull or DudeNotFull. Once it is adjacent to the nearest DudeFull or DudeNotFull,
+it teleports the DudeFull or DudeNotFull to the portal in which the rick spawned from. Also, once a rick is teleported the rick looks
+to find another DudeFull or DudeNotFull elsewhere on the grid.
+
+
+
+
+
+
+
+
